@@ -27,4 +27,10 @@ def main(page: ft.Page):
 
     page.add(ft.Text("Done!"))
 
-ft.app(target=main, port=8080)
+# import flet as ft
+
+# def main(page: ft.Page):
+#     page.title = "My App"
+#     page.add(ft.Text("Hello, World!"))
+
+ft.app(target=main, host="0.0.0.0", port=8000)
